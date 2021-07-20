@@ -62,7 +62,6 @@ a.active, a:hover {
 }
 
 .container {
-  display: flex;
 }
 
 .social-wrapper {
@@ -85,6 +84,10 @@ a.active, a:hover {
 }
 
 .experience-wrapper {
+  background: url("/assets/images/experience-bg.webp");
+  background-size: cover;
+  padding-left: 10rem;
+  display: flex;
   width: 100%;
   height: 100vh;
 }
@@ -94,11 +97,26 @@ a.active, a:hover {
 }
 
 .home-content {
-  display: flex;
-  width: 100%;
   align-items: center;
   margin-left: 10rem;
-  padding: 7%;
+  display: flex;
+  padding: 5rem;
+  width: 100%;
+}
+
+.item {
+  width: 50%;
+}
+
+.item-content {
+width: 100%;
+}
+
+.experience-content {
+  align-items: flex-end;
+  display: flex;
+  padding: 5rem;
+  width: 100%;
 }
 
 .modal-container {
@@ -131,8 +149,25 @@ a.active, a:hover {
   border: 2px solid white; /* Green */
 }
 
+.body-text {
+  line-height: 1.5;
+}
+
 @media (max-width: 1114px) {
+  .experience-wrapper {
+    padding-left: 0rem;
+  }
+  .experience-content {
+    padding: 1rem;
+  }
+  .home-content {
+    padding: 1rem;
+  }
+  .largeTitle {
+    font-size: 27px;
+  }
   .checkbtn {
+    margin-right: 3rem;
     display: block;
   }
   ul{
