@@ -61,15 +61,20 @@ a.active, a:hover {
   display: none;
 }
 
-.container {
-}
-
 .social-wrapper {
   background-color: #212121;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10rem;
   position: fixed;
+  display: flex;
   height: 100vh;
   width: 10rem;
   top: 0;
+}
+
+.social-icon {
+  margin: 3rem;
 }
 
 .home-wrapper {
@@ -79,6 +84,7 @@ a.active, a:hover {
   height: 100vh;
   width: 100%;
 }
+
 .main-wrapper {
   width: 100%;
 }
@@ -90,6 +96,42 @@ a.active, a:hover {
   display: flex;
   width: 100%;
   height: 100vh;
+}
+
+.rooms-wrapper {
+  background: url("/assets/images/rooms-bg.webp");
+  background-size: cover;
+  padding-left: 10rem;
+  display: flex;
+  width: 100%;
+  height: 100vh;
+}
+
+.rooms-content {
+  display: flex;
+  padding: 10rem 5rem 5rem 5rem; 
+  width: 100%;
+}
+
+.rooms-btns {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.experience-btns {
+  display: flex;
+}
+
+.carousel-btn {
+  background-color: #212121;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 
 .largeTitle {
@@ -131,7 +173,7 @@ width: 100%;
 }
 
 .filled-btn {
-  background-color: #867c7d; /* Green */
+  background-color: #867c7d;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -146,7 +188,7 @@ width: 100%;
   background-color: transparent;
   padding: 15px 32px;
   color: white;
-  border: 2px solid white; /* Green */
+  border: 2px solid white;
 }
 
 .body-text {
