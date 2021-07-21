@@ -98,6 +98,51 @@ a.active, a:hover {
   height: 100vh;
 }
 
+/* Booking */
+
+.booking-wrapper {
+  background: url("/assets/images/booking-bg.webp");
+  background-size: cover;
+  align-items: center;
+  padding-left: 10rem;
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.booking-content {
+  justify-content: center;
+  display: flex;
+  padding: 5rem;
+  width: 100%;
+}
+
+.booking-items {
+  width: 100%;
+}
+
+.booking-modal {
+  background-color: #212121;
+  width: 100%;
+  height: 140px;
+  display: flex;
+}
+
+.booking-title {
+  justify-content: center;
+  display: flex;
+  margin: 2rem;
+}
+
+.booking-btn {
+  justify-content: center;
+  display: flex;
+  margin: 2rem;
+
+}
+
+/* Rooms */
+
 .rooms-wrapper {
   background: url("/assets/images/rooms-bg.webp");
   background-size: cover;
@@ -187,6 +232,7 @@ width: 100%;
 .outline-btn {
   background-color: transparent;
   padding: 15px 32px;
+  font-size: 16px;
   color: white;
   border: 2px solid white;
 }
